@@ -13,13 +13,13 @@ lowered_list = []
 
 times_raced = 0
 num_read = 0
-accuracy_percent = 10
+accuracy_percent = 92
 nitro_num = random.randint(1, 100)
-wpm_deviation = random.randint(-5, 5)
+wpm_deviation = random.randint(-125)
 
 
 def check_nitro():
-    if nitro_num <= 89:
+    if nitro_num <= 90:
         nitro = True
     else:
         nitro = False
